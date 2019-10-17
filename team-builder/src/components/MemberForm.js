@@ -26,7 +26,7 @@ const MemberForm = props => {
         onChange = { handleChanges } 
         value = { member.name }
       />
-      <label htmlFor = 'name'>Email: </label>
+      <label htmlFor = 'email'>Email: </label>
       <input
         id = 'email'
         type = 'text'
@@ -34,7 +34,7 @@ const MemberForm = props => {
         onChange = { handleChanges }
         value = { member.email }
       />
-      <label htmlFor = 'name'>Role: </label>
+      <label htmlFor = 'role'>Role: </label>
       <input 
         id = 'role'
         type = 'text'
