@@ -10,7 +10,7 @@ function App() {
       id: 1,
       name: 'Keith Kogane',
       email: 'keith@voltron.com',
-      role: 'Leader, Pilot of Black Lion (Torso and Head of Voltron'
+      role: 'Leader, Pilot of Black Lion (Torso and Head of Voltron)'
     }
   ]);
 

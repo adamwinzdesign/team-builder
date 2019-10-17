@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const MemberForm = props => {
   console.log('props', props)
-  const [member, setMember] = useState({ name: '', email: '', role: ''});
+  const [member, setMember] = useState({ name:'', email:'', role:''});
 
   const handleChanges = e => {
     console.log(member);
@@ -42,7 +42,7 @@ const MemberForm = props => {
       />
       <button type = 'submit' >Add Team Member</button>
     </form>
-  )
-}
+  );
+};
 
 export default MemberForm;
